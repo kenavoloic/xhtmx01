@@ -1,0 +1,40 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/table.css' %}">
+
+<div id="elements-liste">
+  {% if villes %}
+  <div class="table-container">
+    <table class="custom-table">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Code postal</th>
+          <th>Créé le</th>
+          <th>Utilisateur</th>
+          <th>Édition</th>
+        </tr>
+      </thead>
+      {% comment %} https://docs.djangoproject.com/fr/stable/ref/templates/builtins/#date {% endcomment %}
+      <tbody>
+        {% for ville in villes %}
+        <tr>
+          <td>{{ville.nom}}</td>
+          <td>{{ville.code_postal}}</td>
+          <td>{{ville.created_at|date:"j F Y"}}</td>
+          <td>{{ville.utilisateur}}</td>
+          <td><button class="btn btn-success">Éditer</button></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div class="alert alert-info">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg>
+    <span>Aucune ville</span>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,110 @@
+[
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Toulouse",
+            "code_postal": "31000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Montpellier",
+            "code_postal": "34000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Nîmes",
+            "code_postal": "30000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Perpignan",
+            "code_postal": "66000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Caracassonne",
+            "code_postal": "11000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Tarbe",
+            "code_postal": "65000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Foix",
+            "code_postal": "09000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Mende",
+            "code_postal": "48000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Albi",
+            "code_postal": "81000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Rodez",
+            "code_postal": "12000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Auch",
+            "code_postal": "32000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    },
+    {
+        "model": "configurations.ville",
+        "fields": {
+            "nom": "Cahors",
+            "code_postal": "46000",
+            "created_at": "2023-10-13 12:00:00",
+            "utilisateur": 1
+        }
+    }
+]

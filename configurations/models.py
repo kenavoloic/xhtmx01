@@ -18,3 +18,5 @@ class Ville(models.Model):
     def __str__(self):
         return f"{self.code_postal} {self.nom}"
  
+
+    

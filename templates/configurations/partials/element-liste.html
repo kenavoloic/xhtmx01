@@ -7,16 +7,18 @@
 	  <th>Nom</th>
 	  <th>Code postal</th>
 	  <th>Créé le</th>
-	  <th>Édition</th>
+	  <th>Utilisateur</th>
+	<th>Édition</th>
 	</tr>
-      </thead>
-      <tbody>
+	</thead>
+	{% comment %} https://docs.djangoproject.com/fr/stable/ref/templates/builtins/#date {% endcomment %}
+	<tbody>
 	{% for ville in villes %}
 	<tr>
 	<td>{{ville.nom}}</td>
 	<td>{{ville.code_postal}}</td>
+	<td>{{ville.created_at|date:"j F Y"}}</td>
 	<td>{{ville.utilisateur}}</td>
-	<td>{{ville.created_at}}</td>
 	<td><button class="btn btn-xs btn-success">Éditer</button></td>
 	</tr>
 	{% endfor %}
